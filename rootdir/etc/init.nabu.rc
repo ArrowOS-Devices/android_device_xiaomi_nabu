@@ -1,3 +1,7 @@
+on post-fs
+    mount none /dev/null vendor/bin/embmsslServer bind
+    mount none /dev/null vendor/etc/init/init.embmssl_server.rc bind
+
 service vendor.light-qti /vendor/bin/hw/android.hardware.lights-service.qti
     class hal
     user system
