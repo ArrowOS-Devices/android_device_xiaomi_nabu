@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "arrow-gitlab",
+    "repository": "android_device_xiaomi_nabu-prebuilt",
+    "target_path": "device/xiaomi/nabu-prebuilt"
+    "branch": "arrow-13.0"
+  },
+  {
+    "repository": "android_vendor_xiaomi_nabu",
+    "target_path": "vendor/xiaomi/nabu"
+  },
+  {
+    "repository": "android_kernel_xiaomi_nabu",
+    "target_path": "kernel/xiaomi/nabu"
+  },
+  {
+    "repository": "android_packages_apps_GCamGOPrebuilt",
+    "target_path": "packages/apps/GCamGOPrebuilt"
+  }
+]
