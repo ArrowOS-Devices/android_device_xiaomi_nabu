@@ -18,7 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Lawnchair
-$(call inherit-product, packages/apps/Lawnchair/lawnchair.mk)
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
 # AAPT
 # Device uses high-density artwork where available
