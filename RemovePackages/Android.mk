@@ -5,11 +5,16 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
+   CarrierServices \
    Dialer \
-   Stk \
    GoogleDialer \
+   Stk \
    TeleService \
-   com.android.phone.common
+   Telecom \
+   TelephonyProvider \
+   com.google.android.dialer.support \
+   com.android.phone.common \
+   messaging
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
