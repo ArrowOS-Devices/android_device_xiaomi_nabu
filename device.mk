@@ -76,7 +76,7 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GCamGOPrebuilt-V3
+    GCamGOPrebuilt-V2
 
 # Common init scripts
 PRODUCT_PACKAGES += \
