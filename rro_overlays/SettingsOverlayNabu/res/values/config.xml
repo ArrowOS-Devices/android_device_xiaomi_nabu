@@ -17,4 +17,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Whether to show min/max refresh rate in display settings -->
     <bool name="config_show_refresh_rate_controls">true</bool>
+
+    <!-- Whether to show emergency settings in top-level Settings -->
+    <bool name="config_show_emergency_settings">false</bool>
+
+    <!-- Whether to show emergency gesture in Settings -->
+    <bool name="config_show_emergency_gesture_settings">false</bool>
+
+    <!-- Whether or not emergency info tile should display in device info page -->
+    <bool name="config_show_emergency_info_in_device_info">false</bool>
 </resources>
