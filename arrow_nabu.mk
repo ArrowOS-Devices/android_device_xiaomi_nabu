@@ -28,5 +28,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_MODEL=2109119DG
 
 # ArrowOS additions
-DEVICE_MAINTAINER := LynnrinChan, kubersharma001, ganeshi4u
+DEVICE_MAINTAINER := K001droid and ganeshi4u
 
