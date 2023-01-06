@@ -75,8 +75,13 @@ PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
 # Camera
+ifeq ($(ARROW_GAPPS),true)
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt-V3
+else
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt-V2
+endif
 
 # Common init scripts
 PRODUCT_PACKAGES += \
