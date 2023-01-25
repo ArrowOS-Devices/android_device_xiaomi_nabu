@@ -99,6 +99,10 @@ PRODUCT_PACKAGES += \
     f2fs_io \
     check_f2fs
 
+# HotwordEnrollment app permissions
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/configs/priv-app/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
